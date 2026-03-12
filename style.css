@@ -145,10 +145,11 @@ color: rgb(105, 105, 105);
 .delete{
   margin-left: auto;
 }
-
-.navbar p, .nav-link {
-  font-family: inherit !important;
-  margin: 0 !important;
+.navbar-collapse{
+  width: 100%;
+}
+.navbar-nav{
+  flex-direction: column;
 }
 
 
