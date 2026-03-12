@@ -142,6 +142,7 @@ function updateStatus(id,newStatus){
   if(book){
     book.status = newStatus;
   }
+  renderBooks()
   renderStats()
 
 }
