@@ -39,7 +39,7 @@ function addBook() {
     id: nextId,
     title: title,
     genre: genre,
-    status: 'To Consume',
+    status: 'to-consume',
     rating: rating,
     type: type
   };
