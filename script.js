@@ -115,9 +115,9 @@ renderBooks();
 // TOTAL/VIEWING/COMPLETED/TO-CONSUME
 function renderStats(){
   const total = books.length;
-  const viewing = books.filter(b=> b.status === 'Viewing').length;
-  const completed = books.filter(b=> b.status === 'Completed').length;
-  const toConsume = books.filter(b=> b.status === 'To Consume').length;
+  const viewing = books.filter(b=> b.status === 'viewing').length;
+  const completed = books.filter(b=> b.status === 'completed').length;
+  const toConsume = books.filter(b=> b.status === 'to-consume').length;
 
   document.getElementById('readBar').innerHTML =`
   <div class="read-pill"> Total <span>${total}</span></div>
@@ -143,6 +143,5 @@ function updateStatus(id,newStatus){
     book.status = newStatus;
   }
   renderBooks()
-  renderStats()
 
 }
