@@ -145,3 +145,28 @@ color: rgb(105, 105, 105);
 .delete{
   margin-left: auto;
 }
+
+.navbar p, .nav-link {
+  font-family: inherit !important;
+  margin: 0 !important;
+}
+
+
+@media (max-width: 991px) {
+  .book-card {
+    flex-wrap: wrap !important;
+    font-size: medium;
+  }
+
+  .book-card p {
+    min-width: 100%;
+  }
+
+  .container-1 {
+    justify-content: center;
+  }
+
+  .col-md-1, .col-md-5, .col-md-3, .col-md-2, .align-items-end {
+    width: 45% !important;
+  }
+}
