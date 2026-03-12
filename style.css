@@ -1,0 +1,147 @@
+
+body{
+  background-color: rgb(208, 208, 208);
+}
+.page-header{
+  font-size: larger;
+  padding: 10px 0 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+}
+p{
+  font-family: 'Playfair Display', serif;
+}
+
+.container{
+  width: 100%;
+  padding: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+.add-card{
+  background-color: rgb(66, 66, 66);
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px black ;
+  text-align: center;
+  max-width:  800px;
+  margin: 0 auto;
+  padding: 1.5px;
+  
+}
+.container-1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  gap: 25px;
+
+}
+.col-md-1{
+  border-radius: 50px;
+  width: 12%;
+    
+  }
+.col-md-5{
+  width: 25%;
+    
+  }
+.col-md-3{
+  width: 17%;
+    
+  }
+.col-md-2{
+  width: 11%;
+    
+  }
+.align-items-end{
+  width: 18%;
+  
+    
+  }
+.btn-add{
+  background-color:rgb(109, 128, 129);
+  color: rgb(3, 3, 3);
+  border-radius: 10px;
+}
+.form-label{
+text-transform: uppercase;
+font-family:'Playfair Display', serif;
+color: rgb(105, 105, 105);
+
+}
+
+
+.read-bar {
+  display: flex;
+  flex-direction: row;        /* puts pills in a row */
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem auto;          /* centers it */
+  max-width: 700px;           /* aligns with add-card */
+  padding: 0.5rem 0;
+}
+
+.read-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1.5px solid #ccc;
+  border-radius: 999px;       /*  pill shape */
+  background-color: rgb(249, 249, 249);
+  padding: 0.4rem 1.2rem;
+  font-size: 0.85rem;
+}
+.empty-state{
+  color:black
+}
+
+.book-card {
+  font-size: x-large;
+  background-color: rgb(175, 174, 174);
+  border-radius: 8px;
+  margin: auto;
+  margin-left: auto;
+  max-width:  800px;
+}
+.book-card p {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.book-info {
+  display: inline-block;
+  background-color: #d1d1d1;
+  color: #000000;
+  gap: 9rem;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  width: auto;
+  max-width: 300px;
+}
+
+.book-select{
+  display: inline-block;
+  background-color: #d1d1d1;
+  color: #000000;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.delete{
+  margin-left: auto;
+}
